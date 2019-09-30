@@ -1,0 +1,83 @@
+I"c	<!-- Main -->
+<div id="main">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>Committee Members</h2>
+		</header>
+		<p>Our committee members span undergraduates, master's and PhD students from disciplines spanning engineering to biology.</p>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="two" class="spotlights">
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/committee/jarrod.png" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>President</h3>
+					<h4>Jarrod Shilts</h4>
+				</header>
+				<p>Biography. js2320@cam.ac.uk </p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/committee/alex.png" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Vice-President</h3>
+					<h4>Alex Baker</h4>
+				</header>
+				<p>Bio.</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="assets/images/committee/georgeos.png" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Outreach Manager/Webmaster</h3>
+					<h4>Georgeos Hardo</h4>
+				</header>
+				<p>Biography. gh464@cam.ac.uk</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+<!-- Three -->
+<section id="three">
+	<div class="inner">
+		<header class="major">
+			<h2>Massa libero</h2>
+		</header>
+		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<ul class="actions">
+			<li><a href="generic.html" class="button next">Get Started</a></li>
+		</ul>
+	</div>
+</section>
+
+&lt;/div&gt;
+</section></div>
+:ET

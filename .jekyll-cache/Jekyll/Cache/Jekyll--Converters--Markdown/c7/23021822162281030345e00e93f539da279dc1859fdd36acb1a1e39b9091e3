@@ -1,0 +1,16 @@
+I"�	<p>In our final workshop, we arrive at the final stage of our bacterial photography project based on a study by <a href="http://doi.org/10.1016/j.cell.2009.04.048">Tabor et al (2009)</a>. Based on their protocol, we inoculated LB media containing ampicillin and streptomycin with E. coli cells of the DH5α strain that had been transformed with the pSR33.4r and the pEDL3 plasmid. The pSR33.4r was the plasmid concerned in the previous Gibson assembly workshops and contains the Cph8, Ho1, and PcyA constructs which are components of the light sensing mechanism. The other plasmid, pEDL3, contained a genetic circuit for edge detection.</p>
+
+<p>On the day we made up agarose consisting of LB media – adding the salt ferric ammonium citrate and S-gal, a substrate used to select recombinant bacterial clones. We then added ampicillin and streptomycin to make sure that only the bacteria that have taken the our plasmids would grow – the two plasmids have genes conferring resistance to these antibiotics. Then we inoculated the agarose with our bacteria and took care to rapidly pour the agarose into plates before they solidify. Although the bacteria are inside the agarose gel, rather than growing as colonies above it, they could still survive as the agarose was not so dense that it prevented air to diffuse in the agarose. We left the plates under the light masks we designed for 24 hours under a red LED lamp. According to the study by Tabor et al, the bacteria is most sensitive to red light.</p>
+
+<p>However, using the DH5α strain of E. coli instead of the JW3367c strain as used by Tabor et al (2009) could result in the salt concentration in the media causing excess downstream signalling from the EnvZ/OmpR system used, as suggested by <a href="https://dx.doi.org/10.1016%2Fj.pbiomolbio.2015.04.005">Foo et al (2015)</a>. What this means is that it would be likely that we would see saturation, making the plates all black. Unfortunately, that was exactly what we saw.</p>
+
+<h4></h4>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/IMG_20181112_170250-350x263.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/IMG_20181112_170327-350x263.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/43200_200-480x360.png" alt="" /></span></div>
+	</div>
+</div>
+
+:ET

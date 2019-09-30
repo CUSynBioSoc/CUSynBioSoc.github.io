@@ -23,7 +23,7 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header" class="alt">
+<header id="header">
 	<a href="http://localhost:4000//" class="logo"><strong>SynBioSoc</strong> <span>Cambridge University Synthetic Biology Society</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
@@ -79,92 +79,44 @@
 		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
 </nav>
+ 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
 
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Workshop4</h1>
+		</header>
+		
+		<p><p>In our final workshop, we arrive at the final stage of our bacterial photography project based on a study by <a href="http://doi.org/10.1016/j.cell.2009.04.048">Tabor et al (2009)</a>. Based on their protocol, we inoculated LB media containing ampicillin and streptomycin with E. coli cells of the DH5α strain that had been transformed with the pSR33.4r and the pEDL3 plasmid. The pSR33.4r was the plasmid concerned in the previous Gibson assembly workshops and contains the Cph8, Ho1, and PcyA constructs which are components of the light sensing mechanism. The other plasmid, pEDL3, contained a genetic circuit for edge detection.</p>
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>CU SynBioSoc: Cambridge University Synthetic Biology Society</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">The Synthetic Biology Society aims to promote the field of synthetic biology (SynBio) amongst the student community and within schools in Cambridge. Particular focus will be given to its real-world applications and interdisciplinary nature. Expert speakers from different SynBio disciplines will be invited to give talks, and links to external SynBio events and networks will be developed. We aim to work closely with both the SynBio SRI and the Open Plant initiative, and strengthen their direct links with STEM students.</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Learn More</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<p>On the day we made up agarose consisting of LB media – adding the salt ferric ammonium citrate and S-gal, a substrate used to select recombinant bacterial clones. We then added ampicillin and streptomycin to make sure that only the bacteria that have taken the our plasmids would grow – the two plasmids have genes conferring resistance to these antibiotics. Then we inoculated the agarose with our bacteria and took care to rapidly pour the agarose into plates before they solidify. Although the bacteria are inside the agarose gel, rather than growing as colonies above it, they could still survive as the agarose was not so dense that it prevented air to diffuse in the agarose. We left the plates under the light masks we designed for 24 hours under a red LED lamp. According to the study by Tabor et al, the bacteria is most sensitive to red light.</p>
 
-    <!-- Main -->
-    <div id="main">
+<p>However, using the DH5α strain of E. coli instead of the JW3367c strain as used by Tabor et al (2009) could result in the salt concentration in the media causing excess downstream signalling from the EnvZ/OmpR system used, as suggested by <a href="https://dx.doi.org/10.1016%2Fj.pbiomolbio.2015.04.005">Foo et al (2015)</a>. What this means is that it would be likely that we would see saturation, making the plates all black. Unfortunately, that was exactly what we saw.</p>
 
-        <!-- One -->
-        <section id="one" class="tiles">
-  
-  
-  
-  
-  
-  
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/aboutimage.png" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="/about.html" class="link">About</a></h3>
-      <p></p>
-    </header>
-  </article>
-  
-  
-  
-  
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/pic07.jpg" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="/committee.html" class="link">Committee</a></h3>
-      <p>Meet the committee</p>
-    </header>
-  </article>
-  
-  
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/pic11.jpg" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="/generic.html" class="link">Generic</a></h3>
-      <p>Lorem ipsum dolor est</p>
-    </header>
-  </article>
-  
-  
-  
-  
+<h4></h4>
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/IMG_20181112_170250-350x263.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/IMG_20181112_170327-350x263.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="assets/images/posts/workshop4/43200_200-480x360.png" alt="" /></span></div>
+	</div>
+</div>
+
+<p>Bill Jia, our president, also went through the Python code he wrote with David Chong, adapting a computational model from the <a href="https://github.com/bill-jia/cusbsedgedetectionmodelling/">Tabor et al (2009) paper which could be found here!</a> The script simulated the level of expression of β-galactoside and the signalling</p>
+
+<p>molecule AHL at various points in a circular plate placed under a custom light mask over a time course, based on differential equations. So this section of this week’s workshop looks at how computational models can be used to simulate biological processes.</p>
+
+<p>Once again, we thank everyone who has been with us all through this term’s workshops! Our next item on the agenda is planning for our long-term project next term.</p>
+</p>
+	</div>
 </section>
 
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Recent updates</h2>
-                </header>
-                <p><p>Find out what SynBioSoc has been up to, and any upcoming events by looking at our blog.</p>
-</p>
-                <ul class="actions">
-                    <li><a href="all_posts.html" class="button next">Blog/Updates</a></li>
-                </ul>
-            </div>
-        </section>
-
-    </div>
+</div>
 
     <!-- Contact -->
 <section id="contact">
